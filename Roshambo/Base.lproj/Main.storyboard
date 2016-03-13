@@ -21,14 +21,14 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Button" image="paper"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="181" y="126" width="38" height="32"/>
+                                    <rect key="frame" x="136" y="109" width="75" height="65"/>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSP-pw-XAS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Button" image="scissors"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="299" y="284" width="38" height="32"/>
+                                    <rect key="frame" x="254" y="267" width="75" height="65"/>
                                 </variation>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Play!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxN-Ez-Uew">
@@ -44,7 +44,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Button" image="rock"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="70" y="284" width="38" height="32"/>
+                                    <rect key="frame" x="25" y="267" width="75" height="65"/>
                                 </variation>
                             </button>
                         </subviews>
@@ -73,8 +73,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="paper" width="37" height="32"/>
-        <image name="rock" width="37" height="32"/>
-        <image name="scissors" width="37" height="32"/>
+        <image name="paper" width="75" height="65"/>
+        <image name="rock" width="75" height="65"/>
+        <image name="scissors" width="75" height="65"/>
     </resources>
 </document>
