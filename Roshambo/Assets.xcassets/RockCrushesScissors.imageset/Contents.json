@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "RockCrushesScissors.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "RockCrushesScissors.jpeg",
       "scale" : "2x"
     },
     {
