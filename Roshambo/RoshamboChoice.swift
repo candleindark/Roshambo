@@ -6,6 +6,6 @@
 //  Copyright © 2016 Isaac To. All rights reserved.
 //
 
-enum RoshamboChoice {
-        case Rock, Paper, Scissors
+enum RoshamboChoice: Int {
+        case Rock = 1, Paper, Scissors
 }
