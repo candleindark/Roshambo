@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="517.5" y="464"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="gaD-uy-TtY">
             <objects>
-                <viewController id="Jbm-Qe-kSa" sceneMemberID="viewController">
+                <viewController id="Jbm-Qe-kSa" customClass="ResultViewController" customModule="Roshambo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0iN-3s-ax9"/>
                         <viewControllerLayoutGuide type="bottom" id="IkM-2X-Yyu"/>

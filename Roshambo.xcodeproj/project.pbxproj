@@ -15,6 +15,7 @@
 		6A2FC3D01C94DE460038FE3D /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC3CF1C94DE460038FE3D /* RoshamboTests.swift */; };
 		6A2FC3DB1C94DE460038FE3D /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC3DA1C94DE460038FE3D /* RoshamboUITests.swift */; };
 		6A2FC3E91C9530C30038FE3D /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC3E81C9530C30038FE3D /* ChoiceViewController.swift */; };
+		6A2FC3EB1C95315E0038FE3D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2FC3EA1C95315E0038FE3D /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6A2FC3DA1C94DE460038FE3D /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		6A2FC3DC1C94DE460038FE3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A2FC3E81C9530C30038FE3D /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		6A2FC3EA1C95315E0038FE3D /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				6A2FC3C11C94DE460038FE3D /* Assets.xcassets */,
 				6A2FC3C31C94DE460038FE3D /* LaunchScreen.storyboard */,
 				6A2FC3C61C94DE460038FE3D /* Info.plist */,
+				6A2FC3EA1C95315E0038FE3D /* ResultViewController.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				6A2FC3E91C9530C30038FE3D /* ChoiceViewController.swift in Sources */,
 				6A2FC3BD1C94DE460038FE3D /* ViewController.swift in Sources */,
 				6A2FC3BB1C94DE460038FE3D /* AppDelegate.swift in Sources */,
+				6A2FC3EB1C95315E0038FE3D /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
