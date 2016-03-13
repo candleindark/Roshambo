@@ -9,10 +9,14 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    
+    var userChoice: RoshamboChoice?
+    var computerChoice: RoshamboChoice?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 }
