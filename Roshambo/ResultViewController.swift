@@ -13,6 +13,8 @@ class ResultViewController: UIViewController {
     var userChoice: RoshamboChoice?
     var computerChoice: RoshamboChoice?
     
+    @IBOutlet weak var resultImageView: UIImageView!
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
