@@ -7,5 +7,5 @@
 //
 
 enum RoshamboChoice: Int {
-        case Rock = 1, Paper, Scissors
+        case Rock = 0, Paper, Scissors
 }
