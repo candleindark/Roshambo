@@ -9,10 +9,21 @@
 import UIKit
 
 class ChoiceViewController: UIViewController {
+    
+    // Randomly generate a roshambo choice
+    func randomRoshamboChoice() -> RoshamboChoice {
+        return RoshamboChoice(rawValue: Int(arc4random() % 3))!
+    }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    @IBAction func rock() {
+        
+        let resultViewController: ResultViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ResultViewController") as! ResultViewController
+        
+        // Set the model of the ResultViewController
+        resultViewController.userChoice = .Rock
+        resultViewController.computerChoice = randomRoshamboChoice()
+        
+        presentViewController(resultViewController, animated: true, completion: nil)
     }
 }
