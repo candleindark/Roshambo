@@ -68,5 +68,15 @@ class ResultViewController: UIViewController {
             resultImageView.image = nil
             resultLabel.text = nil
         }
+        
+        resultImageView.alpha = 0
+        resultLabel.alpha = 0
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        UIView.animateWithDuration(0.3, animations: {self.resultImageView.alpha = 1; self.resultLabel.alpha = 1})
+        
     }
 }
