@@ -17,6 +17,7 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         
         if nil != userChoice && nil != computerChoice {
             
