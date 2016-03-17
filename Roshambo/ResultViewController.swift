@@ -79,4 +79,8 @@ class ResultViewController: UIViewController {
         UIView.animateWithDuration(0.3, animations: {self.resultImageView.alpha = 1; self.resultLabel.alpha = 1})
         
     }
+    
+    @IBAction func playAgain() {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
 }

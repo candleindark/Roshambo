@@ -98,6 +98,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="165" y="442" width="71" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="playAgain" destination="Jbm-Qe-kSa" eventType="touchUpInside" id="2Nm-dH-a06"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sU4-PS-9Mp">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
