@@ -29,7 +29,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSP-pw-XAS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button" image="scissors"/>
+                                <state key="normal" title="Scissors" image="scissors"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="254" y="267" width="75" height="65"/>
                                 </variation>
@@ -45,7 +45,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atH-Qz-KNd">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button" image="rock"/>
+                                <state key="normal" title="Rock" image="rock"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="25" y="267" width="75" height="65"/>
                                 </variation>
