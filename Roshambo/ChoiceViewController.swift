@@ -14,6 +14,16 @@ class ChoiceViewController: UIViewController {
     func randomRoshamboChoice() -> RoshamboChoice {
         return RoshamboChoice(rawValue: Int(arc4random() % 3))!
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "performPaper" {
+            let resultViewController = segue.destinationViewController as! ResultViewController
+            
+            // Set the model of the ResultViewController
+            resultViewController.userChoice = .Paper
+            resultViewController.computerChoice = randomRoshamboChoice()
+        }
+    }
 
     
     @IBAction func rock() {
@@ -25,5 +35,9 @@ class ChoiceViewController: UIViewController {
         resultViewController.computerChoice = randomRoshamboChoice()
         
         presentViewController(resultViewController, animated: true, completion: nil)
+    }
+    
+    @IBAction func paper(sender: UIButton) {
+        performSegueWithIdentifier("performPaper", sender: self)
     }
 }

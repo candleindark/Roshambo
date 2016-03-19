@@ -19,10 +19,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-9k-7zb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button" image="paper"/>
+                                <state key="normal" title="Paper" image="paper"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="136" y="109" width="75" height="65"/>
                                 </variation>
+                                <connections>
+                                    <action selector="paper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0zL-7a-2y6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSP-pw-XAS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -69,6 +72,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <segue destination="Jbm-Qe-kSa" kind="presentation" identifier="performPaper" id="Io4-5P-6hj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
