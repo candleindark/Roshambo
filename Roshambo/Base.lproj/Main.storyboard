@@ -17,6 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atH-Qz-KNd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Rock" image="rock"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="267" width="75" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="rock" destination="BYZ-38-t0r" eventType="touchUpInside" id="jja-hy-rLA"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-9k-7zb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Paper" image="paper"/>
@@ -33,6 +43,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="254" y="267" width="75" height="65"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="Jbm-Qe-kSa" kind="presentation" identifier="performScissors" id="Vjc-sg-qmD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Play!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxN-Ez-Uew">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -43,32 +56,22 @@
                                     <rect key="frame" x="152" y="458" width="78" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atH-Qz-KNd">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Rock" image="rock"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="267" width="75" height="65"/>
-                                </variation>
-                                <connections>
-                                    <action selector="rock" destination="BYZ-38-t0r" eventType="touchUpInside" id="jja-hy-rLA"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="atH-Qz-KNd"/>
                                 <exclude reference="cs0-9k-7zb"/>
                                 <exclude reference="HSP-pw-XAS"/>
                                 <exclude reference="wxN-Ez-Uew"/>
-                                <exclude reference="atH-Qz-KNd"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="atH-Qz-KNd"/>
                                 <include reference="cs0-9k-7zb"/>
                                 <include reference="HSP-pw-XAS"/>
                                 <include reference="wxN-Ez-Uew"/>
-                                <include reference="atH-Qz-KNd"/>
                             </mask>
                         </variation>
                     </view>
@@ -149,4 +152,7 @@
         <image name="rock" width="75" height="65"/>
         <image name="scissors" width="75" height="65"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Io4-5P-6hj"/>
+    </inferredMetricsTieBreakers>
 </document>

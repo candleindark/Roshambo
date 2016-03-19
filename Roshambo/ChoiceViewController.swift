@@ -16,12 +16,19 @@ class ChoiceViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "performPaper" {
+        
+        func setDestinationViewController(userChoice: RoshamboChoice) {
             let resultViewController = segue.destinationViewController as! ResultViewController
             
             // Set the model of the ResultViewController
-            resultViewController.userChoice = .Paper
+            resultViewController.userChoice = userChoice
             resultViewController.computerChoice = randomRoshamboChoice()
+        }
+        
+        if segue.identifier == "performPaper" {
+            setDestinationViewController(.Paper)
+        } else if segue.identifier == "performScissors" {
+            setDestinationViewController(.Scissors)
         }
     }
 
