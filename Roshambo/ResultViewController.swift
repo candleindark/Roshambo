@@ -68,9 +68,6 @@ class ResultViewController: UIViewController {
             resultImageView.image = nil
             resultLabel.text = nil
         }
-        
-        resultImageView.alpha = 0
-        resultLabel.alpha = 0
     }
     
     override func viewDidAppear(animated: Bool) {
